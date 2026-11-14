@@ -519,12 +519,3 @@ gcc main.o -o main.exe
 
 ৫. একটি C Program লিখে Single-Line এবং Multi-Line Comment ব্যবহার করো।
 
----
-
-## পরবর্তী ক্লাসের প্রস্তুতি
-
-পরবর্তী ক্লাসে আমরা C Programming-এর আরও গুরুত্বপূর্ণ বিষয় নিয়ে আলোচনা করব। বিশেষ করে Variables, Constants, Identifiers, Keywords এবং Variable Declaration ও Initialization সম্পর্কে বিস্তারিত শিখব।
-
-**Practice regularly, Keep Learning & Happy Coding!**
-
-*NUB Computer Club | C Programming Foundation Course*
