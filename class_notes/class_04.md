@@ -1,12 +1,4 @@
-# NORTHERN UNIVERSITY BANGLADESH
-## NUB COMPUTER CLUB
-### C Programming Foundation Course
 
-**Class 05: Multiple Variables, Input, Arithmetic & Unary Operators**
-
-*Lecture Notes | Beginner Friendly | C Programming*
-
----
 
 ## 01. Multiple Variables in a Single Statement
 
@@ -617,56 +609,6 @@ After Decrement = 2
 
 ---
 
-## 11. Practice Questions
-
-### Part A: Basic Practice
-
-1. একই লাইনে তিনটি Integer Variable Declare করো।
-2. একই লাইনে তিনটি Variable Initialize করো: `10`, `20`, `30`।
-3. `scanf()` ব্যবহার করে একই লাইনে দুইটি Integer Input নাও।
-4. দুইটি সংখ্যা Input নিয়ে Addition, Subtraction, Multiplication এবং Division বের করো।
-5. দুইটি সংখ্যা Input নিয়ে তাদের ভাগশেষ বের করো।
-
-### Part B: Output Prediction
-
-নিচের Code-এর Output কী হবে?
-
-**Question 1**
-
-```c
-int a = 5, b = 2;
-printf("%d", a / b);
-```
-
-**Question 2**
-
-```c
-int a = 5;
-printf("%d\n", a++);
-printf("%d", a);
-```
-
-**Question 3**
-
-```c
-int a = 5;
-printf("%d\n", ++a);
-printf("%d", a);
-```
-
-**Question 4**
-
-```c
-int result = 10 + 5 * 2;
-printf("%d", result);
-```
-
-**Question 5**
-
-```c
-int result = (10 + 5) * 2;
-printf("%d", result);
-```
 
 ### Part C: Problem Solving
 
@@ -677,11 +619,4 @@ printf("%d", result);
 
 ---
 
-### Class 05 – Final Reminder
 
-আজকের ক্লাসের মূল উদ্দেশ্য ছিল একাধিক Variable ও Input নিয়ে সহজে কাজ করা, Arithmetic Calculation বোঝা, Integer Division-এর সমস্যা সমাধান করা, Type Casting ব্যবহার করা, Increment/Decrement এবং Operator Precedence বুঝতে শেখা।
-
-C Programming শেখার সবচেয়ে ভালো উপায় হলো প্রতিটি Example নিজে Code করে Run করা এবং Output আসার আগে নিজে অনুমান করা।
-
-**NUB COMPUTER CLUB**  
-*C Programming Foundation Course*
