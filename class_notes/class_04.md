@@ -1,4 +1,14 @@
+NORTHERN UNIVERSITY BANGLADESH
 
+NUB COMPUTER CLUB
+
+C Programming Foundation Course
+
+Class 05: Multiple Variables, Input, Arithmetic & Unary Operators
+
+Lecture Notes | Beginner Friendly | C Programming
+
+---
 
 01. Multiple Variables in a Single Statement
 
@@ -573,3 +583,13 @@ Part C: Problem Solving
 3. একটি সংখ্যা Input নিয়ে সেটি Even নাকি Odd নির্ণয় করো। (Hint: Modulus Operator)
 4. দুইটি সংখ্যা Input নিয়ে বড় সংখ্যাটি বের করার জন্য Arithmetic Calculation এবং Comparison সম্পর্কে চিন্তা করো। Comparison Operator আমরা পরবর্তী ক্লাসে শিখব।
 
+---
+
+Class 05 – Final Reminder
+
+আজকের ক্লাসের মূল উদ্দেশ্য ছিল একাধিক Variable ও Input নিয়ে সহজে কাজ করা, Arithmetic Calculation বোঝা, Integer Division-এর সমস্যা সমাধান করা, Type Casting ব্যবহার করা, Increment/Decrement এবং Operator Precedence বুঝতে শেখা।
+
+C Programming শেখার সবচেয়ে ভালো উপায় হলো প্রতিটি Example নিজে Code করে Run করা এবং Output আসার আগে নিজে অনুমান করা।
+
+NUB COMPUTER CLUB
+C Programming Foundation Course
