@@ -4,11 +4,11 @@ Logical Operator ব্যবহার করে একাধিক Condition �
 
 C Programming-এ প্রধান Logical Operator তিনটি:
 
-| Operator | Name        | কাজ                                 |            |                                     |
-| -------- | ----------- | ----------------------------------- | ---------- | ----------------------------------- |
-| `&&`     | Logical AND | সব Condition True হলে True          |            |                                     |
-| \`       |             | \`                                  | Logical OR | যেকোনো একটি Condition True হলে True |
-| `!`      | Logical NOT | True-কে False এবং False-কে True করে |            |                                     |
+| Operator | Name | কাজ |
+| --- | --- | --- |
+| `&&` | Logical AND | সব Condition True হলে True |
+| `||` | Logical OR | যেকোনো একটি Condition True হলে True |
+| `!` | Logical NOT | True-কে False এবং False-কে True করে |
 
 C-তে কোনো Expression-এর Result True হলে `1` এবং False হলে `0` পাওয়া যায়।
 
@@ -181,14 +181,14 @@ Bitwise Operator ব্যবহার করে এই Binary Bit-গুলো�
 
 ### Bitwise Operators in C
 
-| Operator | Name        | কাজ                          |                                |
-| -------- | ----------- | ---------------------------- | ------------------------------ |
-| `&`      | Bitwise AND | দুই Bit-ই 1 হলে Result 1     |                                |
-| \`       | \`          | Bitwise OR                   | যেকোনো একটি Bit 1 হলে Result 1 |
-| `^`      | Bitwise XOR | Bit দুইটি ভিন্ন হলে Result 1 |                                |
-| `~`      | Bitwise NOT | প্রতিটি Bit উল্টে দেয়       |                                |
-| `<<`     | Left Shift  | Bit বাম দিকে সরায়           |                                |
-| `>>`     | Right Shift | Bit ডান দিকে সরায়           |                                |
+| Operator | Name | কাজ |
+| --- | --- | --- |
+| `&` | Bitwise AND | দুই Bit-ই 1 হলে Result 1 |
+| `|` | Bitwise OR | যেকোনো একটি Bit 1 হলে Result 1 |
+| `^` | Bitwise XOR | Bit দুইটি ভিন্ন হলে Result 1 |
+| `~` | Bitwise NOT | প্রতিটি Bit উল্টে দেয় |
+| `<<` | Left Shift | Bit বাম দিকে সরায় |
+| `>>` | Right Shift | Bit ডান দিকে সরায় |
 
 ## Binary Number বোঝা
 
@@ -460,7 +460,7 @@ Positive Integer-এর ক্ষেত্রে উপযুক্ত Range-এ
 
 `10 >> 2` → `10 / 4 = 2`
 
-\<text color="secondary" size="sm">Note: Shift Operation-এর ক্ষেত্রে Signed ও Unsigned Integer এবং Bit-এর সীমা অনুযায়ী কিছু নিয়ম রয়েছে। আপাতত Positive Integer-এর Basic Shift Operation বোঝাই আমাদের উদ্দেশ্য।\</text>
+> **Note:** Shift Operation-এর ক্ষেত্রে Signed ও Unsigned Integer এবং Bit-এর সীমা অনুযায়ী কিছু নিয়ম রয়েছে। আপাতত Positive Integer-এর Basic Shift Operation বোঝাই আমাদের উদ্দেশ্য।
 
 ---
 
@@ -468,13 +468,14 @@ Positive Integer-এর ক্ষেত্রে উপযুক্ত Range-এ
 
 Logical Operator এবং Bitwise Operator দেখতে কিছুটা একই রকম হলেও তাদের কাজ আলাদা।
 
-| Logical Operator        | Bitwise Operator                             |    |    |    |
-| ----------------------- | -------------------------------------------- | -- | -- | -- |
-| `&&`                    | `&`                                          |    |    |    |
-| \`                      |                                              | \` | \` | \` |
-| `!`                     | `~`                                          |    |    |    |
-| Condition যাচাই করে     | Binary Bit-এর উপর কাজ করে                    |    |    |    |
-| Result সাধারণত 0 অথবা 1 | Result-এর Bit Pattern অনুযায়ী Integer Value |    |    |    |
+| Logical Operator | Bitwise Operator | কাজ |
+| --- | --- | --- |
+| `&&` | `&` | AND |
+| `||` | `|` | OR |
+| `!` | `~` | NOT |
+
+- Logical Operator Condition যাচাই করে এবং Result সাধারণত `0` অথবা `1` হয়।
+- Bitwise Operator Binary Bit-এর উপর কাজ করে এবং Result Bit Pattern অনুযায়ী Integer Value হয়.
 
 ### Example
 
@@ -544,7 +545,7 @@ C Programming-এ Compound Assignment Operator ব্যবহার করে C
 | `/=`     | `a /= 5`  | `a = a / 5`     |       |         |     |
 | `%=`     | `a %= 5`  | `a = a % 5`     |       |         |     |
 | `&=`     | `a &= 5`  | `a = a & 5`     |       |         |     |
-| \`       | =\`       | \`a             | = 5\` | \`a = a | 5\` |
+| `|=` | `a |= 5` | `a = a | 5` |
 | `^=`     | `a ^= 5`  | `a = a ^ 5`     |       |         |     |
 | `<<=`    | `a <<= 1` | `a = a << 1`    |       |         |     |
 | `>>=`    | `a >>= 1` | `a = a >> 1`    |       |         |     |
@@ -784,24 +785,24 @@ Negative
 
 # 06. Quick Revision
 
-| Operator Type             | Operator | কাজ                               |                         |                                   |
-| ------------------------- | -------- | --------------------------------- | ----------------------- | --------------------------------- |
-| Logical AND               | `&&`     | সব Condition True হতে হবে         |                         |                                   |
-| Logical OR                | \`       |                                   | \`                      | অন্তত একটি Condition True হতে হবে |
-| Logical NOT               | `!`      | Condition-এর Result উল্টে দেয়    |                         |                                   |
-| Bitwise AND               | `&`      | দুই Bit-ই 1 হলে 1                 |                         |                                   |
-| Bitwise OR                | \`       | \`                                | যেকোনো একটি Bit 1 হলে 1 |                                   |
-| Bitwise XOR               | `^`      | Bit ভিন্ন হলে 1                   |                         |                                   |
-| Bitwise NOT               | `~`      | Bit উল্টে দেয়                    |                         |                                   |
-| Left Shift                | `<<`     | Bit বাম দিকে সরায়                |                         |                                   |
-| Right Shift               | `>>`     | Bit ডান দিকে সরায়                |                         |                                   |
-| Assignment                | `=`      | Value Assign                      |                         |                                   |
-| Addition Assignment       | `+=`     | যোগ করে Assign                    |                         |                                   |
-| Subtraction Assignment    | `-=`     | বিয়োগ করে Assign                 |                         |                                   |
-| Multiplication Assignment | `*=`     | গুণ করে Assign                    |                         |                                   |
-| Division Assignment       | `/=`     | ভাগ করে Assign                    |                         |                                   |
-| Modulus Assignment        | `%=`     | ভাগশেষ Assign                     |                         |                                   |
-| Ternary                   | `?:`     | Condition অনুযায়ী Value নির্বাচন |                         |                                   |
+| Operator Type | Operator | কাজ |
+| --- | --- | --- |
+| Logical AND | `&&` | সব Condition True হতে হবে |
+| Logical OR | `||` | অন্তত একটি Condition True হতে হবে |
+| Logical NOT | `!` | Condition-এর Result উল্টে দেয় |
+| Bitwise AND | `&` | দুই Bit-ই 1 হলে 1 |
+| Bitwise OR | `|` | যেকোনো একটি Bit 1 হলে 1 |
+| Bitwise XOR | `^` | Bit ভিন্ন হলে 1 |
+| Bitwise NOT | `~` | Bit উল্টে দেয় |
+| Left Shift | `<<` | Bit বাম দিকে সরায় |
+| Right Shift | `>>` | Bit ডান দিকে সরায় |
+| Assignment | `=` | Value Assign |
+| Addition Assignment | `+=` | যোগ করে Assign |
+| Subtraction Assignment | `-=` | বিয়োগ করে Assign |
+| Multiplication Assignment | `*=` | গুণ করে Assign |
+| Division Assignment | `/=` | ভাগ করে Assign |
+| Modulus Assignment | `%=` | ভাগশেষ Assign |
+| Ternary | `?:` | Condition অনুযায়ী Value নির্বাচন |
 
 ---
 
@@ -843,4 +844,4 @@ Negative
 4. Ternary Operator ব্যবহার করে দুটি সংখ্যা থেকে বড় সংখ্যাটি বের করো।
 5. Ternary Operator ব্যবহার করে একটি সংখ্যা Positive অথবা Negative নির্ণয় করো।
 
-
+---
